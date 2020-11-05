@@ -1,0 +1,29 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+class Solution {
+public:
+// класс доступен всем так как он public
+    void item(){
+    // string A;int i=0;
+    // while(i<2){
+    //   cout<<"Input item :\n";
+    //   cin>>A;
+    //   i++;
+    //   }
+    string A="Abay";
+    string B="Baykonur";
+    distance =(0+10)*20;
+    cout<<"Distance from "<<A<<" to "<<B<<"="<<distance<<endl;
+    }
+    private:
+    int distance=0;
+    int speed=20;
+    int cost=15;
+    
+};
+
+int main() {
+  Solution myObject;
+  myObject.item();
+}
